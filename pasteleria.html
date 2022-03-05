@@ -1,0 +1,123 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pasteleria </title>
+
+</head>
+<style>  
+     header {
+    background-color: rgb(71, 15, 71);
+    padding: 30px;
+    text-align: center;
+    
+    color: rgba(241, 240, 123, 0.801);
+    width: auto;
+}
+    nav {
+            text-align: center;
+            width: auto;
+            height: auto;
+            
+            background: rgb(229, 200, 140 );
+            padding: 20px;
+        }
+    
+    article{
+        text-align: left;
+    }
+</style>
+<body>
+   <header> 
+    <h1>Bienvenidos </h1> 
+    <h1>Pasteleria Fugaz</h1>
+   </header>
+
+    <article>
+        
+    </article>
+    <nav>
+
+    
+    <img src="D:\universidad\LaunchX\katas frondend\html\pasteleria fugaz.png" alt="Logo pasteleria" width="200px">
+    <p>Sean bienvenidos a su pasteleria fuera de este mundo. Con sabores que solo se ven cada 100 años! </p>
+    <p>En esta pasteleria que brilla en el cielo puede encontrar los siguientes sabores:</p>
+    
+    <h2>Sabores</h2>
+    <p>los precios son por kilo (Nuestro menu es interactivo, seleccione la casilla para ir creando su orden)</p>
+
+    <table align="center">
+        
+        <tr>
+        <td>
+            <input type="checkbox" id="sabor1" name="sabor1" value="Cholate">
+            <label for="sabor1">Cholate  $100</label><br>
+            <input type="checkbox" id="sabor2" name="sabor2" value="Vainilla">
+            <label for="sabor1">Vainilla  $100</label><br>
+            <input type="checkbox" id="sabor3" name="sabor3" value="cajeta">
+            <label for="sabor1">cajeta  $130</label><br>
+        </td>
+        <td>
+            <input type="checkbox" id="sabor4" name="sabor4" value="red">
+            <label for="sabor1">red velvet  $140</label><br>
+            <input type="checkbox" id="sabor5" name="sabor5" value="Piña">
+            <label for="sabor1">Piña  $120</label><br>
+            <input type="checkbox" id="sabor6" name="sabor6" value="Tres leches fresa">
+            <label for="sabor1">Tres leches fresa   $150</label><br>
+        </td>
+        </tr>
+        
+        </table>
+
+        <h2>Adornos</h2>
+        
+    
+        <table align="center" >
+            
+            <tr>
+            <td>
+                <input type="checkbox" id="adorno1" name="adorno1" value="Plana">
+                <label for="adorno1">Figura plana a eleccion $50</label><br>
+                <input type="checkbox" id="adorno2" name="adorno2" value="chantilli">
+                <label for="adorno2">Figuras de chantilli  $60</label><br>
+            </td>
+            <td>
+                <input type="checkbox" id="adorno3" name="adorno3" value="3d">
+                <label for="adorno3">Figura 3D con pastel $100</label><br>
+                <input type="checkbox" id="adorno4" name="adorno4" value="Fiesta">
+                <label for="adorno1">Adorno especial de Fiesta $150</label><br>
+            </td>
+            </tr>
+            
+            </table>
+    <h2>Momento de pedir su pastel fugaz</h2>
+            <label for="nombre"> Tu nombre</label>
+            <input type="text" id="nombre" name="nombre" value="" placeholder="Nombre del comprador" >
+            <label for="tel"> Telefono de contacto</label>
+            <input type="number" id="tel" name="tel" value="tel" placeholder="xxx-xxx-xx-xx" maxlength="10"> <br>
+            <label for="correo"> Tu correo de contacto</label>
+            <input type="email" id="correo" name="correo" value="" placeholder="ejemplo@ejemplo" > 
+            <label for="direcc"> Direccion de envio</label>
+            <input type="text" id="direcc" name="direcc" value="" placeholder="Calle del cometa #22 ">
+            <label for="fecha"> Agende la entrega de su pastel</label>
+            <input type="date" id="fecha" name="fecha" value=""  ><br>
+            <label for="Descrip">Describe tu pastel </label> <br>
+            <input type="text" id="Descrip" name="Descrip" value="" placeholder="Especifique las caracterisitcas de su pedido" style="width: 400px; height: 200px;" > <br>
+            <label for="kg">De cuantos kilos sera su pastel? </label> <br>
+            <input type="number" id="kg" name="kg" value="" > <br>
+
+           <P>Todo listo en su pedido?</P> 
+            <input type="submit">
+            <p>Se arrepiente de algo?</p>
+            <input type="reset">
+
+     <h2>Conozcanos</h2>
+     <p>Somos una pequeña empresa del estado de Puebla, llevamos creando pasteles sorprendentes desde el 2018</p> <br>
+     <p>Deje sus fiestas y sorpresas en nuestras manos</p>
+    </nav>
+</body>
+
+
+</html>
